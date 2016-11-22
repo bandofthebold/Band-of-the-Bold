@@ -1,0 +1,20 @@
+# IP-tölur
+Rename-NetAdapter -Name "Ethernet" -NewName "LAN"
+New-NetIPAddress -InterfaceAlias LAN -IPAddress 192.168.130.190 -PrefixLength 26 #-DefaultGateway 192.168.1.1 notum ekki default gateway
+Set-DnsClientServerAddress -InterfaceAlias LAN -ServerAddresses 127.0.0.1
+
+
+# AD + DNS
+Install-WindowsFeature -Name AD-Domain-Services –IncludeManagementTools
+Install-ADDSForest –DomainName olafur.local –InstallDNS -SafeModeAdministratorPassword (ConvertTo-SecureString -AsPlainText "pass.123" -Force)
+
+
+# DHCP
+Install-WindowsFeature –Name DHCP –IncludeManagementTools
+Add-DhcpServerv4Scope -Name PotatoScope -StartRange 192.168.130.129 -EndRange 192.168.130.159 -SubnetMask 255.255.255.192
+Set-DhcpServerv4OptionValue -DnsServer 192.168.130.190 -Router 192.168.130.190
+Add-DhcpServerInDC -DnsName WIN3A-14.olafur.local #t.d. $($env:computername + “.” $env:userdnsdomain)
+
+
+#Setja Win8 vél á domain
+Add-Computer -ComputerName win3A-w81-14 -LocalCredential win3A-w81-14\Administrator -DomainName olafur.local -Credential olafur.local\Administrator -Restart -Force
