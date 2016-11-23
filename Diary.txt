@@ -14,4 +14,6 @@ Kláraði basic server uppsetningu í gegnum powershell.
 
 Bjó til dagbók.
 
-Setti inn powershell fyrir DHCP, ekki glósur, heldur kóðinn sem við notuðum. Mun íhuga að fjarlægja glósur fyrir einföldun.
+Setti inn powershell fyrir DHCP. Mun íhuga að fjarlægja gamlar glósur fyrir einföldun.
+
+Kláraði að setja inn notendur fyrir server.
