@@ -23,3 +23,5 @@ Setti inn powershell kóða fyrir Users. Er enn að íhuga að eyða gömlum gl�
 Uploadaði CSV skránna, af því bara.
 
 Addaði Remote desktop feature, og Web Server feature.
+
+Bjó til sameign.
