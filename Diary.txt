@@ -17,3 +17,5 @@ Bjó til dagbók.
 Setti inn powershell fyrir DHCP. Mun íhuga að fjarlægja gamlar glósur fyrir einföldun.
 
 Kláraði að setja inn notendur fyrir server.
+
+Setti inn powershell kóða fyrir Users. Er enn að íhuga að eyða gömlum glósum.
