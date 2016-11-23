@@ -25,3 +25,5 @@ Uploadaði CSV skránna, af því bara.
 Addaði Remote desktop feature, og Web Server feature í server.
 
 Bjó til sameign*
+
+Ingó: Byrjaði á vefsíðu um Band of the Bold setti upp Bootstrap (hún er responsive) og gerði uppkast af layout á síðunni
