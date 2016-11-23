@@ -21,3 +21,5 @@ Kláraði að setja inn notendur fyrir server.
 Setti inn powershell kóða fyrir Users. Er enn að íhuga að eyða gömlum glósum.
 
 Uploadaði CSV skránna, af því bara.
+
+Addaði Remote desktop feature, og Web Server feature.
