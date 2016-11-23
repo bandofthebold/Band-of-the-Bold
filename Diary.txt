@@ -1,8 +1,8 @@
-16.11.2016 - Héldum fund um hvað við ættum að gera.
+16.11.2016 - Héldum fund um hvað við ættum að gera. 
 
 22.11.2016
 
-Geir lét okkur fá server (win31-21 : 10.201.190.121)
+Geir lét okkur fá server (win31-21 : 10.201.190.121) 
 
 Coperaði glósur af powershell kóðunum úr google drive sem verða notaðar til að búa til serverinn.
 
