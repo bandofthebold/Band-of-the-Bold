@@ -14,7 +14,7 @@ Kláraði basic server uppsetningu í gegnum powershell.
 
 Bjó til dagbók.
 
-Setti inn powershell fyrir DHCP. Mun íhuga að fjarlægja gamlar glósur fyrir einföldun.
+Setti inn powershell kóða fyrir DHCP. Mun íhuga að fjarlægja gamlar glósur fyrir einföldun.
 
 Kláraði að setja inn notendur fyrir server.
 
@@ -22,6 +22,6 @@ Setti inn powershell kóða fyrir Users. Er enn að íhuga að eyða gömlum gl�
 
 Uploadaði CSV skránna, af því bara.
 
-Addaði Remote desktop feature, og Web Server feature.
+Addaði Remote desktop feature, og Web Server feature í server.
 
-Bjó til sameign.
+Bjó til sameign*
