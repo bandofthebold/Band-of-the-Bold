@@ -8,3 +8,10 @@ Showed up to the classroom, and showed moral support. Sæþór went insane. Show
 
 Showed up to the classroom, and showed moral support...again. Sæþór went insane again. Showed psychologial support...again.
 Also made sure he wrote on github. It was harder than you think.
+
+30.11.2016
+
+Pulled the website files from github and shoved them into the server. 
+Then I set up the IIS stuff, making sure the website could be accessed by users on the server.
+The results were good and bad. The server runs the website fine, as long as I don't use Internet explorer.
+Need to make it run better on actual windows 8 machines.
