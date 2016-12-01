@@ -15,3 +15,8 @@ Pulled the website files from github and shoved them into the server.
 Then I set up the IIS stuff, making sure the website could be accessed by users on the server.
 The results were good and bad. The server runs the website fine, as long as I don't use Internet explorer.
 Need to make it run better on actual windows 8 machines.
+
+1.12.2016
+
+Finished polishing various aspects of the project, and wrote the report. Fixed the text for the website to suit the new direction. 
+Told Sæþór to write in his Diary. This has actually become a routine.
